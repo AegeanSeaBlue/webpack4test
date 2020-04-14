@@ -26,7 +26,7 @@ module.exports = {
   },
   output: {
     path: dist,
-    filename: 'bundle.js'
+    filename: '[name].[chunkhash].js'
   },
   resolve: {
     extensions: ['.js', '.jsx']
