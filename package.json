@@ -11,20 +11,28 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "ace-builds": "^1.4.11",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
     "react": "^16.13.1",
+    "react-ace": "^8.1.0",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
-    "babel-loader": "^8.1.0",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
-    "cross-env": "^7.0.2",
+    "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
+    "core-js": "^2.6.11",
+    "cross-env": "^7.0.2",
     "html-webpack-plugin": "^4.2.0",
     "webpack": "^4.42.1",
+    "webpack-bundle-analyzer": "^3.6.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
-    "webpack-bundle-analyzer": "^3.6.1"
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3"
   }
 }

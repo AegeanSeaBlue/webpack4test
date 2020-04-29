@@ -5,7 +5,7 @@ const dist = path.join(__dirname, '../dist');
 module.exports = {
   mode: 'development',
   entry: {
-    index: './src/index.js'
+    index: ['@babel/polyfill','./src/index.js']
   },
   output: {
     path: dist,
@@ -19,7 +19,7 @@ module.exports = {
     compress: true,
     open: true,
     contentBase: dist,
-    noInfo: true,
+    //noInfo: true,
     historyApiFallback: true
   },
   module: {
